@@ -1,6 +1,6 @@
 ﻿namespace TimerOne
 {
-   partial class Form1
+   partial class FormOne
    {
       /// <summary>
       ///  Required designer variable.
@@ -99,7 +99,7 @@
          Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
          Name = "Form1";
          Text = "Таймер";
-         Load += Form1_Load;
+         Load += FormOne_Load;
          ResumeLayout(false);
          PerformLayout();
       }
