@@ -1,2 +1,1 @@
-# SystemTimers
-Таймер System.Timers
+# Таймер System.Timers
