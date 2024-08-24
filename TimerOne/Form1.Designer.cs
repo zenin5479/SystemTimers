@@ -33,7 +33,7 @@
          // Form1
          // 
          AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-         ClientSize = new System.Drawing.Size(800, 450);
+         ClientSize = new System.Drawing.Size(525, 375);
          Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
          Name = "Form1";
          Text = "Таймер";
