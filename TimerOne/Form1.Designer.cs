@@ -44,6 +44,7 @@
          ButtonStop.TabIndex = 44;
          ButtonStop.Text = "Стоп";
          ButtonStop.UseVisualStyleBackColor = true;
+         ButtonStop.Click += ButtonStop_Click;
          // 
          // LabelStopwatch
          // 
@@ -63,6 +64,7 @@
          ButtonReset.TabIndex = 42;
          ButtonReset.Text = "Сброс";
          ButtonReset.UseVisualStyleBackColor = true;
+         ButtonReset.Click += ButtonReset_Click;
          // 
          // ButtonStart
          // 
@@ -73,6 +75,7 @@
          ButtonStart.TabIndex = 41;
          ButtonStart.Text = "Старт";
          ButtonStart.UseVisualStyleBackColor = true;
+         ButtonStart.Click += ButtonStart_Click;
          // 
          // TextBoxSeconds
          // 
