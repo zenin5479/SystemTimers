@@ -57,6 +57,8 @@
          Controls.Add(TextBoxOne);
          Controls.Add(ButtonTimerStart);
          Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+         MaximizeBox = false;
+         MinimizeBox = false;
          Name = "FormOne";
          StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
          Text = "Таймер";
