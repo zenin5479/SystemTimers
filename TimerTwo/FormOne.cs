@@ -6,11 +6,11 @@ using System.Windows.Forms;
 
 namespace TimerTwo
 {
-   public partial class Form1 : Form
+   public partial class FormOne : Form
    {
       private readonly SynchronizationContext _synchronizationContext;
 
-      public Form1()
+      public FormOne()
       {
          InitializeComponent();
          _synchronizationContext = SynchronizationContext.Current;

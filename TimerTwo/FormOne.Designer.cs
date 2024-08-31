@@ -1,6 +1,6 @@
 ﻿namespace TimerTwo
 {
-   partial class Form1
+   partial class FormOne
    {
       /// <summary>
       ///  Required designer variable.
@@ -50,14 +50,15 @@
          ButtonTimerStart.UseVisualStyleBackColor = true;
          ButtonTimerStart.Click += ButtonTimerStart_Click;
          // 
-         // Form1
+         // FormOne
          // 
          AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
          ClientSize = new System.Drawing.Size(395, 238);
          Controls.Add(TextBoxOne);
          Controls.Add(ButtonTimerStart);
          Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-         Name = "Form1";
+         Name = "FormOne";
+         StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
          Text = "Таймер";
          Load += Form1_Load;
          ResumeLayout(false);
