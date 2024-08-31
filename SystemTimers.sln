@@ -5,7 +5,11 @@ VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_TimerOne", "TimerOne\01_TimerOne.csproj", "{E01DB225-C539-496C-A1B8-64D366E5E348}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_TimerTwo", "TimerTwo\02_TimerTwo.csproj", "{CEED9EE8-C4DE-4635-8546-EB57CC3B2375}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_TimerTwo", "TimerTwo\02_TimerTwo.csproj", "{CEED9EE8-C4DE-4635-8546-EB57CC3B2375}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_TimerThree", "TimerThree\03_TimerThree.csproj", "{34544BE0-3FE7-427D-9098-AB26987858BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_TimerFour", "TimerFour\04_TimerFour.csproj", "{0CE46095-8AE1-425C-B4E4-6EC8C5293B16}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{CEED9EE8-C4DE-4635-8546-EB57CC3B2375}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEED9EE8-C4DE-4635-8546-EB57CC3B2375}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEED9EE8-C4DE-4635-8546-EB57CC3B2375}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34544BE0-3FE7-427D-9098-AB26987858BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34544BE0-3FE7-427D-9098-AB26987858BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34544BE0-3FE7-427D-9098-AB26987858BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34544BE0-3FE7-427D-9098-AB26987858BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CE46095-8AE1-425C-B4E4-6EC8C5293B16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CE46095-8AE1-425C-B4E4-6EC8C5293B16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CE46095-8AE1-425C-B4E4-6EC8C5293B16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CE46095-8AE1-425C-B4E4-6EC8C5293B16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
