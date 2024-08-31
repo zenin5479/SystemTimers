@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Diagnostics;
+using System.Diagnostics.Tracing;
 using System.Threading;
 using System.Windows.Forms;
 
@@ -27,6 +27,7 @@ namespace TimerTwo
             int j = i;
             _synchronizationContext.Post((o) => TextBoxOne.Text = j.ToString(), null);
          }
+         TextBoxOne.AppendText(Environment.NewLine);
       }
 
       private void Form1_Load(object sender, EventArgs e)
@@ -52,7 +53,8 @@ namespace TimerTwo
             TextBoxOne.AppendText($"Прошедшее событие в {eventArgs.SignalTime:G}" + Environment.NewLine);
          };
          timer.Start();
-         timer.Dispose();
+         // Утилизация таймера
+         //timer.Dispose();
 
          // Обработка исключений
          // Всякий раз, когда обработчик событий таймера выбрасывает исключение, компонент таймера перехватывает его и подавляет
