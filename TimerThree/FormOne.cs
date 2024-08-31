@@ -6,9 +6,9 @@ using System.Windows.Forms;
 
 namespace TimerThree
 {
-   public partial class Form1 : Form
+   public partial class FormOne : Form
    {
-      public Form1()
+      public FormOne()
       {
          InitializeComponent();
       }
@@ -42,25 +42,6 @@ namespace TimerThree
          };
 
          timer.Start();
-
-         // Реализация обработчиков
-         //System.Timers.Timer timer = new System.Timers.Timer(1000);
-         //timer.Elapsed += async (o, eventArgs) =>
-         //{
-         //   // Создаем StringBuilder
-         //   StringBuilder sb = new StringBuilder();
-         //   // Создаем StringWriter
-         //   await using StringWriter sw = new StringWriter(sb);
-         //   // Заполняем StringWriter
-         //   await sw.WriteAsync($"Прошедшее событие в {eventArgs.SignalTime:G}");
-         //   // Печатаем StringWriter
-         //   TextBoxOne.AppendText(sw + Environment.NewLine);
-         //   // Очищаем StringBuilder
-         //   //sb.Remove(0, sb.Length);
-         //   sb.Clear();
-         //};
-
-         //timer.Start();
       }
    }
 }
